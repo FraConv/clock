@@ -1,0 +1,86 @@
+h1{font-size: 60px; font-family: 'Roboto Mono', monospace; color: white; transition: all 0.5s ease-in-out;}
+
+.h1click{font-size: 60px; font-family: 'Roboto Mono', monospace; color: rgb(0, 0, 0); transition: all 0.5s ease-in-out;}
+
+.riquadro{border: solid 4px rgb(255, 255, 255); padding: 27px 9px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px;
+    
+transition: all 0.5s ease-in-out; } 
+
+.bottone{border: solid 4px rgb(255, 255, 255); padding: 9px 9px; background: rgb(255, 255, 255); border-radius: 100px; margin-top: -122px; position: fixed; margin-left: 330px; cursor: pointer; 
+
+transition: all 0.5s ease-in-out;}
+
+.riquadroclick{border: solid 4px rgb(0, 0, 0); padding: 27px 9px; background: white; border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px; transition: all 0.5s ease-in-out;} 
+
+body{background: black; transition: all 0.5s ease-in-out;}
+
+.bodyclick{background: #439ec9; transition: all 0.5s ease-in-out;}
+
+.bottoneclick{border: solid 4px black; padding: 9px 9px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px; cursor: pointer; 
+    
+transition: all 0.5s ease-in-out;}
+
+.contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 40px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 8px; border-radius: 100px; position: fixed; 
+    
+transition: all 0.5s ease-in-out;}
+
+.contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 40px; background: white; margin-top: 100px; margin-left: 8px; border-radius: 100px; position: fixed;
+    
+transition: all 0.5s ease-in-out;}
+
+.img-resp{width: 220px; margin-top: 70px; margin-left: 20px;}
+
+html{margin: 0; padding: 0}
+
+footer{padding: 60px 1200px; background-color: #ffffff; margin-top: 580px; position: fixed; margin-left: -10px;}
+
+h2{margin-left: -1180px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 14px;}
+
+.footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 580px; position: fixed; margin-left: -10px;}
+
+/*classi media menu pc*/
+
+@media(min-width:48em) {
+
+
+    h1{font-size: 60px; font-family: 'Roboto Mono', monospace; color: white; transition: all 0.5s ease-in-out;}
+
+    .h1click{font-size: 60px; font-family: 'Roboto Mono', monospace; color: rgb(0, 0, 0); transition: all 0.5s ease-in-out;}
+    
+    .riquadro{border: solid 4px rgb(255, 255, 255); padding: 30px 10px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -170px; position: fixed; margin-left: 1700px;
+        
+    transition: all 0.5s ease-in-out; } 
+    
+    .bottone{border: solid 4px rgb(255, 255, 255); padding: 10px 10px; background: rgb(255, 255, 255); border-radius: 100px; margin-top: -130px; position: fixed; margin-left: 1700px; cursor: pointer; 
+    
+    transition: all 0.5s ease-in-out;}
+    
+    .riquadroclick{border: solid 4px rgb(0, 0, 0); padding: 30px 10px; background: white; border-radius: 100px; margin-top: -170px; position: fixed; margin-left: 1700px; transition: all 0.5s ease-in-out;} 
+    
+    body{background: black; transition: all 0.5s ease-in-out;}
+    
+    .bodyclick{background: #439ec9; transition: all 0.5s ease-in-out;}
+    
+    .bottoneclick{border: solid 4px black; padding: 10px 10px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -170px; position: fixed; margin-left: 1700px; cursor: pointer; 
+        
+    transition: all 0.5s ease-in-out;}
+    
+    .contenitore{border: solid 6px rgb(255, 255, 255); padding: 10px 60px; background: rgb(0, 0, 0); margin-top: 150px; margin-left: 750px; border-radius: 100px; position: fixed; 
+        
+    transition: all 0.5s ease-in-out;}
+    
+    .contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 10px 60px; background: white; margin-top: 150px; margin-left: 750px; border-radius: 100px; position: fixed;
+        
+    transition: all 0.5s ease-in-out;}
+    
+    .img-resp{width: 220px; margin-top: 40px; margin-left: 845px;}
+
+    footer{padding: 60px 1200px; background-color: #ffffff; margin-top: 640px; position: fixed; margin-left: -10px; transition: all 0.5s ease-in-out;}
+
+html{margin: 0; padding: 0}
+
+h2{margin-left: -1150px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 15px;}
+
+.footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 640px; position: fixed; margin-left: -10px; transition: all 0.5s ease-in-out;}
+
+}
