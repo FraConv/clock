@@ -4,39 +4,39 @@ h1{font-size: 60px; font-family: 'Roboto Mono', monospace; color: white; transit
 
 .riquadro{border: solid 4px rgb(255, 255, 255); padding: 27px 9px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px;
     
-transition: all 0.5s ease-in-out; } 
+transition: all 0.5s ease-in-out; position: absolute;} 
 
 .bottone{border: solid 4px rgb(255, 255, 255); padding: 9px 9px; background: rgb(255, 255, 255); border-radius: 100px; margin-top: -122px; position: fixed; margin-left: 330px; cursor: pointer; 
 
-transition: all 0.5s ease-in-out;}
+transition: all 0.5s ease-in-out; position: absolute;}
 
-.riquadroclick{border: solid 4px rgb(0, 0, 0); padding: 27px 9px; background: white; border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px; transition: all 0.5s ease-in-out;} 
+.riquadroclick{border: solid 4px rgb(0, 0, 0); padding: 27px 9px; background: white; border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px; transition: all 0.5s ease-in-out; position: absolute;} 
 
-body{background: black; transition: all 0.5s ease-in-out;}
+body{background: black; transition: all 0.5s ease-in-out; position: absolute;}
 
-.bodyclick{background: #439ec9; transition: all 0.5s ease-in-out;}
+.bodyclick{background: #439ec9; transition: all 0.5s ease-in-out; position: absolute;}
 
 .bottoneclick{border: solid 4px black; padding: 9px 9px; background: rgb(0, 0, 0); border-radius: 100px; margin-top: -157px; position: fixed; margin-left: 330px; cursor: pointer; 
     
-transition: all 0.5s ease-in-out;}
+transition: all 0.5s ease-in-out; position: absolute;}
 
 .contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 16px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed; 
     
-transition: all 0.5s ease-in-out;}
+transition: all 0.5s ease-in-out; position: absolute;}
 
 .contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 16px; background: white; margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed;
     
-transition: all 0.5s ease-in-out;}
+transition: all 0.5s ease-in-out; position: absolute;}
 
 .img-resp{width: 220px; margin-top: 70px; margin-left: 20px;}
 
 html, body{margin: 0; padding: 0}
 
-footer{padding: 60px 1200px; background-color: #ffffff; margin-top: 480px; position: fixed; margin-left: -10px;}
+footer{width: 175%; background-color: #ffffff; margin-top: 940px; position: fixed; margin-left: -10px; position: absolute; display: flex;}
 
-h2{margin-left: -1180px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 14px;}
+h2{margin-left: 40px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 12px; margin-top: 30px;}
 
-.footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 480px; position: fixed; margin-left: -10px;}
+.footerclick{width: 175%; height: 30%; background-color: #78c9ee; margin-top: 940px; position: fixed; margin-left: -10px; position: absolute; display: flex;}
 
 /*classi media menu pc*/
 
