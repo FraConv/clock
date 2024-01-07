@@ -20,11 +20,11 @@ body{background: black; transition: all 0.5s ease-in-out; position: absolute;}
     
 transition: all 0.5s ease-in-out; position: absolute;}
 
-.contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 16px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed; 
+.contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 16px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 42px; border-radius: 100px; position: fixed; 
     
 transition: all 0.5s ease-in-out; position: absolute;}
 
-.contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 16px; background: white; margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed;
+.contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 16px; background: white; margin-top: 100px; margin-left: 42px; border-radius: 100px; position: fixed;
     
 transition: all 0.5s ease-in-out; position: absolute;}
 
@@ -82,5 +82,22 @@ html{margin: 0; padding: 0}
 h2{margin-left: -1150px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 15px;}
 
 .footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 640px; position: fixed; margin-left: -10px; transition: all 0.5s ease-in-out;}
+
+}
+
+
+@media(max-width:384px) {
+
+    footer{width: 163%; background-color: #ffffff; margin-top: 940px; position: fixed; margin-left: -10px; position: absolute; display: flex;}
+
+    .footerclick{width: 163%; height: 30%; background-color: #78c9ee; margin-top: 940px; position: fixed; margin-left: -10px; position: absolute; display: flex;}
+
+    .contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 16px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 28px; border-radius: 100px; position: fixed; 
+    
+        transition: all 0.5s ease-in-out; position: absolute;}
+        
+        .contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 16px; background: white; margin-top: 100px; margin-left: 28px; border-radius: 100px; position: fixed;
+            
+        transition: all 0.5s ease-in-out; position: absolute;}
 
 }
