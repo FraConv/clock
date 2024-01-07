@@ -20,23 +20,23 @@ body{background: black; transition: all 0.5s ease-in-out;}
     
 transition: all 0.5s ease-in-out;}
 
-.contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 20px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed; 
+.contenitore{border: solid 6px rgb(255, 255, 255); padding: 1px 16px; background: rgb(0, 0, 0); margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed; 
     
 transition: all 0.5s ease-in-out;}
 
-.contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 20px; background: white; margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed;
+.contenitoreclick{border: solid 6px rgb(0, 0, 0); padding: 1px 16px; background: white; margin-top: 100px; margin-left: 30px; border-radius: 100px; position: fixed;
     
 transition: all 0.5s ease-in-out;}
 
 .img-resp{width: 220px; margin-top: 70px; margin-left: 20px;}
 
-html{margin: 0; padding: 0}
+html, body{margin: 0; padding: 0}
 
-footer{padding: 60px 1200px; background-color: #ffffff; margin-top: 580px; position: fixed; margin-left: -10px;}
+footer{padding: 60px 1200px; background-color: #ffffff; margin-top: 480px; position: fixed; margin-left: -10px;}
 
 h2{margin-left: -1180px; font-family: 'Roboto Mono', monospace; margin-top: -20px; font-size: 14px;}
 
-.footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 580px; position: fixed; margin-left: -10px;}
+.footerclick{padding: 60px 1200px; background-color: #78c9ee; margin-top: 480px; position: fixed; margin-left: -10px;}
 
 /*classi media menu pc*/
 
